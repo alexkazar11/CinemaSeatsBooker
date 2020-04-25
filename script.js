@@ -68,6 +68,7 @@ updateSelectedCount();
 /* 
 	TO ADD IN THE FUTURE: 
 	- Background container
+	- Add limit to number of tickets
 	- Save the seats separately for each movie in local storage
 	- Clear seats button
 	- Action on Purchase button (occupy seats)

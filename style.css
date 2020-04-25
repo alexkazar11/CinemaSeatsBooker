@@ -2,16 +2,17 @@
 
 /* Variables  */
 :root {
-	--background-color-1: #2c003e;
+	--background-color-1: #7D6F86;
 	--background-color-2: #512b58;
+	--background-color-3: #51485a;
 
 	--text-color: #fff;
 	--text-highlight-color: #CF8886;
-	--text-quiet-color: #777;
+	--text-quiet-color: #797878;
 
 	--seat-color: #fff;
 	--seat-selected-color: #CF8886;
-	--seat-occupied-color: #7D6F86;
+	--seat-occupied-color: #7d6f86;
 
 	--screen-color: #fff;
 	--movie-picker-color: #fff;
@@ -44,6 +45,17 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
+}
+
+.booking-system {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--background-color-3);
+	border-radius: 1rem;
+	padding: 2rem;
+	box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.5);
 }
 
 .movie-container {
